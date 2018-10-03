@@ -1,0 +1,194 @@
+.main{
+    padding: 30px;
+  }
+  .header{
+    height: 90vh;
+     background-image: linear-gradient(to left bottom,rgba(106, 121, 131, 0.8), rgba(51, 51, 51, 0.8)), url("https://www.amuri.net/images/banner5.jpg"); 
+    background-size: cover;
+    background-position: center;
+    /* clip-path: polygon(0 0, 100% 0, 100% 85.3vh, 0 100%); */
+    max-width:1860px;
+      max-height: 955px;
+  }
+  
+  .heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .textbox{
+    margin-left: 25px;
+  }
+  
+  .heading-primary-main{
+    display: block;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 15px;
+    animation-duration: 2s;
+    animation-name: fadeIn;
+  }
+  
+  .heading-primary-sub{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 9px;
+    animation-duration: 2s;
+    animation-name: fadeIn;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  } 
+  
+  .flex-layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .flex-layout>.card-layout{
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px #ededed;
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+  
+  h1{
+    font-weight: 300;
+    margin-bottom: 12px;
+  }
+  
+  .red{
+    color: firebrick;
+  }
+  
+  .reg-msg{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-right: 4px;
+  }
+  .btn-layout{
+    display: inline-block;
+  }
+  .btn-layout>.mat-button{
+    margin-top: 13px;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-bottom: 25px;
+  } 
+  
+  .login-form-layout{
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .login-full-width{
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .forgot{
+    display: block;
+    margin-left: 265px;
+    margin-top: -25px;
+    padding-bottom: 9px;
+    color: #909090;
+    cursor: pointer;
+  }
+  
+  .forgot:hover{
+    color: firebrick;
+  }
+  
+  .forgotcard{
+    height: 181px;
+    width: 483px;
+    font-size: 23px;
+    margin-top: 70px;
+    font-weight: 300;
+  }
+  
+  .btn{
+    margin-top: 20px;
+  }
+  
+  .mail-icon{
+    display: inline-block;
+    font-size: 35px;
+    opacity: 0.7;
+    margin-right: 15px;
+    position: relative;
+    top:9.5px;
+  }
+  
+  @media screen and (max-width:1859px){
+    .header{
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:1410px){
+    .header{
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:1180px){
+    .heading-primary-main{
+      display: block;
+      font-size: 40px;
+      font-weight: 400;
+      letter-spacing: 15px;
+    }
+    
+    .heading-primary-sub{
+      display: block;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 9px;
+    }
+  }
+  
+  @media screen and (max-width:900px){
+    .heading-primary-main{
+      display: block;
+      font-size: 30px;
+      font-weight: 400;
+      letter-spacing: 15px;
+    }
+    
+    .heading-primary-sub{
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 9px;
+    }
+  
+    .flex-layout{
+      width: 95%;
+    }
+  }
+  
+  @media screen and (max-width:760px){
+    .header{
+      width: 760px;
+      margin-right: 50px;
+    }
+  
+    .flex-layout{
+      width: 760px;
+    }
+  }
+  
+  
+  
+  
